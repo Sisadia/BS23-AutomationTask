@@ -23,7 +23,7 @@ public class Login {
     }
 
     public void loggedIn(){
-        sendText(Locators.enterLoginEmail,"testanything.data000060@gmail.com");
+        sendText(Locators.enterLoginEmail,"testanything.data000080@gmail.com");
         sendText(Locators.enterLoginPassword,"demo1234");
         clickButton(Locators.loginButtonClick);
     }
