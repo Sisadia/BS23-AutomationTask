@@ -30,7 +30,7 @@ public class SignIn {
 
     public void registrationFirstUser() throws InterruptedException {
         clickButton(Locators.signinClick);
-        sendText(Locators.enterEmail,"testanything.data000060@gmail.com");
+        sendText(Locators.enterEmail,"testanything.data000080@gmail.com");
         clickButton(Locators.accountButtonClick);
         Thread.sleep(3000);
         clickButton(Locators.formTitle);
@@ -58,12 +58,12 @@ public class SignIn {
 
     public void registrationSecondUser() throws InterruptedException {
         clickButton(Locators.signinClick);
-        sendText(Locators.enterEmail,"testanything00070@gmail.com");
+        sendText(Locators.enterEmail,"testanything00090@gmail.com");
         clickButton(Locators.accountButtonClick);
         Thread.sleep(3000);
         clickButton(Locators.formTitle);
-        sendText(Locators.firstName,"John");
-        sendText(Locators.lastName,"Doe");
+        sendText(Locators.firstName,"William");
+        sendText(Locators.lastName,"John");
         sendText(Locators.enterPassword,"demo1234");
         selectfield(Locators.enterDays,"2");
         selectfield(Locators.enterMonth,"2");
