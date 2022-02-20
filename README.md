@@ -11,6 +11,7 @@ Automated the website by using Selenium, TestNG, and Page Object Model.
 - Architecture: POM
 - Framework: TestNG
 - IDE: IntelliJ
+- Web Driver: ChromeDriver
 
 ### **[Pre Requisites:](url)**
 - Open/install Java JDK 8 version on your PC
@@ -36,14 +37,14 @@ Automated the website by using Selenium, TestNG, and Page Object Model.
 7. Click Register button and create a new user.
 8. Click on Sign Out. 
 
-##Casual Dress
+## Casual Dress
 1. Click on Sign In Button.
 2. Provide an Email & Password and click on Sign In button.
 3. Hover Dresses Button and Click on Casual Dresses.
 4. Scroll to Product and Hover on the Product and Click on Add To Cart Button.
 5. Click on continue Shopping Button From Cart details Window.
 
-##Tshirt and Payment
+## Tshirt and Payment
 1. Scroll up from Casual Dress page and Click on T-Shirts Button.
 2. Filter Blue Color from CATALOG-Color section.
 3. Scroll to Product and Hover on the Product and Click on add To Cart Button.
